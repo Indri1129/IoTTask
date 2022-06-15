@@ -19,12 +19,4 @@ Serial.printf("Analog:%0d Digtal:%0d\n", a_data, d_data);
 M5.Lcd.setCursor(30, 120, 4);
 M5.Lcd.printf("Analog:%0d Digtal:%0d\n", a_data, d_data);
 delay(200);
-}void setup() {
-  // put your setup code here, to run once:
-
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-
 }
